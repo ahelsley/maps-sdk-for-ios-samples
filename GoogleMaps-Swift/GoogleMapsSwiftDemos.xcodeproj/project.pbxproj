@@ -60,6 +60,7 @@
 		7DA370040C828AEFFEFC40C1 /* CustomIndoorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B08A9836FC58ADF5E6C36DC /* CustomIndoorViewController.swift */; };
 		7E1322426F9FDF365BCF3EA0 /* TrafficMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4091BA2074B3B691B1AAD79F /* TrafficMapViewController.swift */; };
 		81AEC1517FA5DA837E840185 /* MapZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B924A31846136307374FE /* MapZoomViewController.swift */; };
+		837BF01827E3EDB60029A0C7 /* PanoramaServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837BF01727E3EDB60029A0C7 /* PanoramaServiceController.swift */; };
 		8679E8541C17881309FB5F11 /* MapsDemoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE0C90254383DA8C437CD0A /* MapsDemoAssets.xcassets */; };
 		88135F34106D3360A5820F96 /* popup_santa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D48B3FFC6D573CF2673D451 /* popup_santa.png */; };
 		91D8C803DEDB4A701699AF8D /* glow-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A676DB2BE6F08848CCC5F44 /* glow-marker@2x.png */; };
@@ -152,6 +153,7 @@
 		73E9911385541153DF35EE99 /* australia-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "australia-large.png"; sourceTree = "<group>"; };
 		784B90031ED0D2E68FA9EF93 /* PolylinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolylinesViewController.swift; sourceTree = "<group>"; };
 		822521FD132C2E44D03EE0E8 /* argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = argentina.png; sourceTree = "<group>"; };
+		837BF01727E3EDB60029A0C7 /* PanoramaServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramaServiceController.swift; sourceTree = "<group>"; };
 		83F342A6AF95FF580F924D74 /* SampleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListViewController.swift; sourceTree = "<group>"; };
 		87E37B0AEBC49DF8A0F89492 /* spitfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spitfire.png; sourceTree = "<group>"; };
 		8AD61BF07E9A5511F02937FE /* MarkerInfoWindowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerInfoWindowViewController.swift; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 				4A7916340031F78D38C594C4 /* MyLocationViewController.swift */,
 				A6181B3AED573910BA0F2D6B /* PaddingBehaviorViewController.swift */,
 				FDABCFB71E0D9B75FA2091CF /* PanoramaViewController.swift */,
+				837BF01727E3EDB60029A0C7 /* PanoramaServiceController.swift */,
 				C54F70F6C6426F576247C16F /* PolygonsViewController.swift */,
 				784B90031ED0D2E68FA9EF93 /* PolylinesViewController.swift */,
 				3B919F5AC728E794E349D4A3 /* SampleLevel.swift */,
@@ -360,7 +363,6 @@
 			children = (
 				2FFA98FE93BB9523D11BC941 /* Pods-GoogleMapsSwiftDemos.default.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -526,15 +528,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsSwiftDemos/Pods-GoogleMapsSwiftDemos-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
 			);
@@ -564,6 +562,7 @@
 				A067CD63E28AE6720F23F751 /* SnapshotReadyViewController.swift in Sources */,
 				485D079B6D198FAB726B0505 /* CameraViewController.swift in Sources */,
 				7DA370040C828AEFFEFC40C1 /* CustomIndoorViewController.swift in Sources */,
+				837BF01827E3EDB60029A0C7 /* PanoramaServiceController.swift in Sources */,
 				63964B9EE87C06FAB81F5471 /* StructuredGeocoderViewController.swift in Sources */,
 				E806B389DD5D2C6BB2572453 /* StyledMapViewController.swift in Sources */,
 				2220A6FDFBA4E74BDE9121F4 /* IndoorMuseumNavigationViewController.swift in Sources */,

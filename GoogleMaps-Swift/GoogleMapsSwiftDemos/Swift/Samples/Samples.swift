@@ -65,6 +65,7 @@ enum Samples {
         viewControllerClass: GradientPolylinesViewController.self, title: "Gradient Polylines"),
     ]
     let panoramaSamples = [
+      Sample(viewControllerClass: PanoramaServiceController.self, title: "Panorama Service"),
       Sample(viewControllerClass: PanoramaViewController.self, title: "Street View"),
       Sample(viewControllerClass: FixedPanoramaViewController.self, title: "Fixed Street View"),
     ]
